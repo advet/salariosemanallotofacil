@@ -327,7 +327,29 @@ width: 357.453px;
     </nav>
 <!--Febre de ganhadores enche as lotéricas de todo o Brasil!-->
     
-  
+  <script type="text/javascript">
+      
+      const zeroFill = n => {
+        return ('0' + n).slice(-2);
+      }
+
+      // Cria intervalo
+      const interval = setInterval(() => {
+        
+        const now = new Date();
+
+        // Formata a data conforme dd/mm/aaaa hh:ii:ss
+        const dataHora = zeroFill(now.getUTCDate()) + '/' + zeroFill((now.getMonth() + 1)) + '/' + now.getFullYear() + ' ' + zeroFill(now.getHours()) + ':' + "00";
+
+        const min = now.getMinutes();
+
+        // Exibe na tela usando a div#data-hora
+        document.getElementById('data-hora').innerHTML = dataHora;
+        document.getElementById('data-min').innerHTML = min;
+      }, 1000);
+
+
+    </script>
   
 
     
@@ -335,9 +357,9 @@ width: 357.453px;
 <div class="container c1">
 <h2>Engenheiro Desenvolve Inteligência Artificial Capaz de Garantir Salário Semanal na LotoFácil </h2>
 <small id="subtitulo" style="font-size: calc(15px + 0.5vw);">Aplicativo Polêmico promete usar Tecnologia Israelense para Garantir 14 Pontos Por Semana na Loto e 15 Pontos ao menos 1x por Ano.</small>
-<div  class="content-publication-data__text"> <p  class="content-publication-data__from" ><strong> </strong> <span style="font-weight: normal"><t style="text-transform:capitalize">São Paulo</t> - <t style="text-transform:uppercase">SP</t></span> </p> <p   id="datadeatualizacao" class="content-publication-data-updated"> <time itemprop="datePublished" datetime="2019-08-02T12:22:16.076Z">
-25/08/20 09:44AM
- </time> <span  class="content-publication-data__updated-relative"> <time itemprop="dateModified"datetime="2019-08-02T13:37:21.080Z"> Atualizado<time datetime="2019-08-02T13:37:21.080Z"> há 26 min</time></amp-timeago> </time> </span> </p> <hr/></div>
+<div  class="content-publication-data__text"> <p style="font-size: 0.8em">
+          <span id="data-hora">14/08/20 07:39AM</span> Atualizado há <span id="data-min">33</span> min
+        </p></div>
 
 </div>
 <div class="container dois"  id="texto">

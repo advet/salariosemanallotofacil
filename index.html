@@ -1,8 +1,9 @@
 
 
 
-<!DOCTYPE html>
-<head>
+<html lang="pt-br"><head>
+<meta charset="utf-8">
+
 <title>Salário Semanal na LotoFácil</title>
 
  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -12,57 +13,416 @@
 <meta property="og:image:height" content="200">
 
 <meta property="og:title" content="Homem Cria Aplicativo Capaz de Garantir Salário Semanal na LotoFácil" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .bs-example{
+        margin: 0;
+    }
+    .navbar{
+        margin-bottom: 1rem;
+    z-index:99999;
 
-  
-  
-  <style type="text/css">
-  body {
-    margin: 0;            /* Reset default margin */
+    }
+.bg-danger{background-color:#20b9ff !important}
+.container{border: 0px solid black;height:;margin-top:0;}
+.container b{color:#A6130A}
+.dois p{font-size: calc(12px + .5vw);font-weight: 495;text-align:justify}
+
+.dois a{font-weight: 700;color:#C4170C}
+@media only screen and (min-width: 1000px){
+  .c1{margin-top:calc(8% + .5vw) !important;}
+.container{width:50%;margin-top: 4%;}
+.dois{width:36% !important;margin-top: 2%;}
 }
-iframe {
-    display: block;       /* iframes are inline by default */
-    border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
-    width: 100vw;
-}
-  </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+.container h1{text-align:left;font-weight:700;font-size:calc(42px + .5vw);}
+h2 small{filter:opacity(0.9);font-size:calc(12px + .5vw);}
+
+.image{  
+    width: 82%;
+
+    transition: opacity .3s linear;
+   }
+
+.content-publication-data-updated{calc(5px + .5vw)}
+
+
+
+
+@media only screen and (max-width: 999px){
   
-</head>
-<body>
-
-  <iframe src="#" class="custom-iframe"></iframe>
-</body>
-<script type="text/javascript">
-
-
-var query = location.search.slice(1);
-var partes = query.split('&');
-var data = {};
-partes.forEach(function (parte) {
-    var chaveValor = parte.split('=');
-    var chave = chaveValor[0];
-    var valor = chaveValor[1];
-    data[chave] = valor;
-});
-  if(data['url'] != undefined){
-    var url = "https://rioverde.site/y/?link=" + data['url'] + "&src=" + data['src'] +'&loteria=' + data['loteria'];
-  } else {
   
-    var url = "https://rioverde.site/y/";
+  .tres{width:fit-content !important;}
+  
+   .bstn-item-shape{
+border-radius: 0;
+width:100%;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+      background-color: #fff;
+    contain: layout paint style;
+    margin: 16px 0 0;
+    overflow: hidden;
   
   }
-   
- $(document).ready(function () {
-        $('.custom-iframe').attr('src', decodeURIComponent(url));
-});
-   
   
+  .content-publication-data-updated{font-size: calc(10px + .5vw) !important}
+  .image{  
+    width: 100%;
+
+    transition: opacity .3s linear;
+   }
+  
+  
+.dois p{font-size: calc(19px + .5vw);font-weight: 495;}
+.c1{margin-top:calc(19% + .5vw) !important;}
+}
+.content-blockquote{border-left: 4px solid #C4170C;margin-top: calc(3% + .5vw);margin-bottom: calc(3% + .5vw);    font-size: 1.5rem !important;
+    text-align: left;
+    padding-left: 1rem;
+    line-height: 2rem;
+    font-weight: 600 !important;
+    letter-spacing: -.0625rem;}
+@media (min-width: 64rem){
+.content-blockquote {
+    font-size: 1.5rem !important  ;
+    line-height: 2.25rem;
+    padding-left: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  
+      font-weight: 500 !important;
+    
+}}
+
+#navbar #logo #subtitulo #datadeatualizacao{
+  
+  transition:0.4s;
+  
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #ff584d; -webkit-box-shadow: 0 0 3px #ff584d; }
+  1% { background-color: #db0e00; -webkit-box-shadow: 0 0 3px #db0e00; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #ff584d; -moz-box-shadow: 0 0 3px #ff584d; }
+  1% { background-color: #db0e00; -moz-box-shadow: 0 0 3px #db0e00; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #ff584d; box-shadow: 0 0 3px #ff584d; }
+  1% { background-color: #db0e00; box-shadow: 0 0 3px #db0e00; }
+}
+
+@keyframes glowing {
+  0% { background-color: #ff584d; box-shadow: 0 0 3px #ff584d; }
+  1% { background-color: #db0e00; box-shadow: 0 0 3px #db0e00; }
+}
+#but a{color:white !important}
+
+.btn-fresh{
+  color: white !important;
+  background-color:#FF1000;
+
+}
+
+
+   
+   .content-media-description{
+     
+     font-size: small !important;
+    text-align: -webkit-center !important;
+    text-align: center !important;
+}
+     
+   }
+   
+<!--***********************************************************************************-->
+   .b{
+    
+         margin: 0;
+      
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+     
+   }
+   
+
+  
+  @media (min-width: 540px){
+.bstn-fd .bstn-item-shape {
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+    margin: 32px 0 0;
+  }
+  
+  .feed-post-body {
+    align-items: start;
+    column-gap: 16px;
+    grid-column-gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(45%,-webkit-max-content));
+    grid-template-columns: repeat(auto-fit,minmax(45%,max-content));
+    grid-template-rows: repeat(5,auto);
+    padding: 0;
+}
+  .feed-post-header {
+    letter-spacing: -.75px;
+    grid-column: 2;
+    padding-bottom: 8px;
+  
+}
+
+.feed-media-wrapper {
+    margin: 0;
+    grid-column: 1;
+    grid-row: 1/span 5;
+}
+
+
+.feed-media-wrapper+.feed-post-metadata, .feed-post-metadata:last-child {
+    margin: 6px 0 0;
+}
+
+.feed-post-body {
+    align-items: start;
+    column-gap: 16px;
+    grid-column-gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(45%,-webkit-max-content));
+    grid-template-columns: repeat(auto-fit,minmax(45%,max-content));
+    grid-template-rows: repeat(5,auto);
+    padding: 0;
+}
+  
+  }
+  
+  .feed-post-header-chapeu {
+    vertical-align: middle;
+      font-weight: 500;
+}
+
+
+
+
+.feed-post-body-resumo, .feed-post-body-title {
+    font-family: opensans,opensans-bastian,Arial,sans-serif;
+      font-weight: 700;
+    font-size: calc(12px + 0.5vw);
+  color:#555;
+      -webkit-font-smoothing: antialiased;
+     
+}
+
+.feed-post-body-title{border-bottom-color: rgb(196, 23, 12);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(196, 23, 12);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(196, 23, 12);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(196, 23, 12);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+color: rgb(196, 23, 12);
+cursor: pointer;
+display: block;
+font-family: opensans, opensans-bastian, Arial, sans-serif;
+font-size: 24px;
+font-stretch: 100%;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 700;
+height: 56px;
+letter-spacing: -1.25px;
+line-height: 28px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+overflow-wrap: break-word;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+text-decoration-color: rgb(196, 23, 12);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-size-adjust: 100%;
+vertical-align: baseline;
+visibility: visible;
+width: 357.453px;
+-webkit-font-smoothing: antialiased;}
+
+
+.feed-post-body-resumo {
+    font-weight: 400;
+   font-size: calc(8px + .5vw);
+  
+}
+  
+  
+  .feed-post-datetime {
+    white-space: nowrap;
+}
+  
+.feed-post-metadata {
+    align-items: center;
+    color: #555;
+    display: block;
+    font: 12px/12px Arial,sans-serif;
+    justify-content: flex-start;
+    letter-spacing: 0;
+    margin: 24px 0 0;
+}
+.bstn-fd-picture-image{width:100%}
+
+ .tres{width:100%;}
+  
+  
+  
+  
+</style></head>
+<body>
+
+
+
+<div class="bs-example">
+    
+  
+    
+
+    
+
+    
+
+    
+
+    
+    <nav id="navbar" style="position: fixed;
+    width: 100%;
+    top: 0;" class="navbar navbar-expand-lg navbar navbar-dark bg-danger">
+       
+<a style="margin:0 auto; font-size:calc(27px + .5vw);" id="logo" href="#" class="navbar-brand">LOTERIAS</a>
+    </nav>
+<!--Febre de ganhadores enche as lotéricas de todo o Brasil!-->
+    
+  
+  
+
+    
+</div>
+<div class="container c1">
+<h2>Engenheiro Desenvolve Inteligência Artificial Capaz de Garantir Salário Semanal na LotoFácil </h2>
+<small id="subtitulo" style="font-size: calc(15px + 0.5vw);">Aplicativo Polêmico promete usar Tecnologia Israelense para Garantir 14 Pontos Por Semana na Loto e 15 Pontos ao menos 1x por Ano.</small>
+<div  class="content-publication-data__text"> <p  class="content-publication-data__from" ><strong> </strong> <span style="font-weight: normal"><t style="text-transform:capitalize">São Paulo</t> - <t style="text-transform:uppercase">SP</t></span> </p> <p   id="datadeatualizacao" class="content-publication-data-updated"> <time itemprop="datePublished" datetime="2019-08-02T12:22:16.076Z">
+25/08/20 09:44AM
+ </time> <span  class="content-publication-data__updated-relative"> <time itemprop="dateModified"datetime="2019-08-02T13:37:21.080Z"> Atualizado<time datetime="2019-08-02T13:37:21.080Z"> há 26 min</time></amp-timeago> </time> </span> </p> <hr/></div>
+
+</div>
+<div class="container dois"  id="texto">
+
+<center><img class="image content-media__image progressive-loaded" itemprop="contentUrl" src="Peter.jpg"><p class="content-media-description">  Peter Cardoso — Foto: Jonas Vieira/Arquivo Pessoal </p></img>
+</center>
+
+<p class="content-text__container "> 
+Peter Cardoso, conhecido por <b>viver de loterias,</b> é um engenheiro brasileiro que está causando polêmica na Internet. 
+</p>
+
+<p class="content-text__container "> 
+Após ter ocupado o cargo de Engenheiro de Sistemas  em uma Startup Israelense de Tecnologia por 3 anos, o engenheiro retornou ao Brasil e alega ter conseguido desenvolver um Aplicativo para Celular capaz de encontrar padrões e <b>brechas estatísticas</b> para garantir um <b>salário semanal na Lotofácil.</b>
+
+</p>
+
+
+
+<p class="content-text__container "> 
+Nossa equipe ficou curiosa com a promessa do engenheiro e foi atrás de provas.
+</p>
+
+<center><img class="image content-media__image progressive-loaded" itemprop="contentUrl" src="dinheiro.png?"></img>
+</center>
+
+<p class="content-text__container ">
+<br>
+Em conversa com nossa equipe, o Engenheiro nos contou que já conseguiu o <b>prêmio máximo de 15pts,</b> 3 vezes nos últimos 2 anos, e ainda nos alertou que sofre grande pressão das Loterias para <b>retirar seu sistema</b> do ar, pois o número de ganhadores está aumentando de forma espantosa a cada vez que ele divulga <b>novas licenças</b> do seu sistema através da internet!
+</p>
+
+<p class="content-text__container ">
+Peter acabou de liberar as <b>últimas 300 licenças</b> do aplicativo na internet, e disse que depois que estas se esgotarem, ele não pretende abrir nenhuma outra oportunidade para quem quiser garantir o seu <b>salário semanal na Lotofácil.</b>
+</p>
+
+
+
+<p class="content-text__container ">
+De acordo com o Engenheiro, se tiver muita gente <b>ganhando todas as semanas,</b> os organizadores de concursos de loteria vão precisar tornar mais rígidas as regras dos Concursos, o que pode prejudicar a todos que já adquiriram o seu aplicativo inteligente.
+</p>
+
+<p class="content-text__container ">
+Ficamos abismados quando Peter pegou o seu Celular e fez uma <b>demonstração,</b> em tempo real, mostrando em detalhes o funcionamento da <b>Inteligência Artificial</b> do seu Aplicativo para Garantir um <b>Salário Semanal</b> na Loto. Não deixe de ver! Você vai se impressionar também!
+</p>
+<br>
+<a style="color:black !important" href="https://mestredaloto.com/147-2/" target="_blank">  <button type="button" style="margin:0 !important;width:100% !important;color: #fff !important;
+    font-weight: 600;" class="btn btn-fresh text-uppercase btn-lg">Clique Aqui para VER o VÍDEO >></button></a>
+<br><br>
+<p class="content-text__container ">Clique no botão acima para assistir o vídeo completo até o final. Aproveite pois Peter nos disse que não sabe até quando ficará disponível, devido à grande pressão que está sofrendo.</p>
+</div>
+<div class="tres" style="border:0;background-color:#f3f3f3; display:none !important">
+<div class="container dois">
+<hr style="border:calc(-8.5px + 0.5vw) solid"/>
+<p style="    font-size: 32px;
+    letter-spacing: -1.8px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+      font-weight: bold;">Veja Também</p>
+
+
+
+<div class="_b"><div class="bastian-feed-item" data-type="basico" data-index="2"><div class="feed-post-body"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">Goiás</span></div><div class="feed-post-body-title gui-color-primary gui-color-hover "><div class="_s"><div class="_b"><a href="https://g1.globo.com/go/goias/noticia/2019/08/14/homem-de-muleta-e-atingido-por-roda-que-se-solta-de-carro-em-movimento-em-goiania-video.ghtml#G1-FEED-HARD-SMART-item-sel-18,rec-top-24h,ba822ccc-128d-40d5-9b62-f39405047122" class="feed-post-link gui-color-primary gui-color-hover">VÍDEO: homem é atingido por roda de carro em mesa de bar</a></div></div></div><div class="feed-post-body-resumo"><div class="_s">Ele sobreviveu e teve alta após 1 semana internado.</div></div><div class="feed-media-wrapper"><div class="_s"><a href="https://g1.globo.com/go/goias/noticia/2019/08/14/homem-de-muleta-e-atingido-por-roda-que-se-solta-de-carro-em-movimento-em-goiania-video.ghtml#G1-FEED-HARD-SMART-item-sel-18,rec-top-24h,ba822ccc-128d-40d5-9b62-f39405047122" class="feed-post-figure-link gui-image-hover"><div class="bstn-fd-item-cover "><picture class="bstn-fd-cover-picture"></picture></div></a></div></div><div class="feed-post-metadata"><span class="feed-post-datetime">Há 3 horas</span><span class="feed-post-metadata-section"> Goiás </span></div></div></div></div></div>
+<br><br>
+</div></div>
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "0";
+    document.getElementById("logo").style.fontSize = "calc(20px + .5vw)";
+  } else {
+    document.getElementById("navbar").style.padding = "";
+    document.getElementById("logo").style.fontSize = "calc(27px + .5vw)";
+  }
+}
+
+if( $(window).width() < 800){
+  
+  
+  document.getElementById("subtitulo").style.fontSize = "calc(16px + .5vw)";
+  document.getElementById("datadeatualizacao").style.fontSize = "calc(11px + .5vw)";
+
+  
+}
 </script>
- <script type="text/javascript">if(window.navigator.userAgent.includes("iPhone")){
-window.location.href = url;
-}</script>
-  <html>
+
+                            </body></html>
